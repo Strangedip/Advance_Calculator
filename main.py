@@ -183,19 +183,19 @@ def trig(sign):
     try:
         if sign == "sin":
             # converting rad to degree
-            equation = equation+'math.sin(0.01745329251*'
+            equation = equation+'math.sin(0.017453292519943295*'
             expression = expression+"sin("
             eq_label.config(text=expression)
             ex_label.config(text=f"backend-> {equation}")
             last_pressed = "sin"
         elif sign == "cos":
-            equation = equation+'math.cos(0.01745329251*'
+            equation = equation+'math.cos(0.017453292519943295*'
             expression = expression+"cos("
             eq_label.config(text=expression)
             ex_label.config(text=f"backend-> {equation}")
             last_pressed = "cos"
         elif sign == "tan":
-            equation = equation+'math.tan(0.01745329251*'
+            equation = equation+'math.tan(0.017453292519943295*'
             expression = expression+"tan("
             eq_label.config(text=expression)
             ex_label.config(text=f"backend-> {equation}")
